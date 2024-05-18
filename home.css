@@ -1,0 +1,62 @@
+
+.login,.register{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.right-header{
+  font-size: 11px;
+  width:400px;
+  display:flex;
+  justify-content: space-between;
+}
+.middle-header{
+  
+  font-size:20px;
+  font-family: "Playpen Sans", cursive;
+  color: rgb(254, 189, 105);
+}
+.title{
+  font-size:20px;
+  font-family: "Playpen Sans", cursive;
+  color: rgb(230, 136, 14);
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom:10px;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 25px;
+}
+.homegrid-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-image-container{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 20px;
+}
+.special-image{
+  max-width: 200px;
+ 
+}
+.special-title{
+  font-size:20px;
+  font-family: "Playpen Sans", cursive;
+  color: black;
+  
+}
+.home-grid a{
+  text-decoration: none;
+  background-color: bisque;
+  border-radius: 50%;
+  padding:15px;
+}

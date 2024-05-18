@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Mart</title>
+    <!-- css links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Playpen+Sans:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <link rel="stylesheet" href="cart.css" />
+    <!-- css links end -->
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <a href="catalog.html" class="book-logo-link">
+          <img class="book-logo" src="icons/book-logo.jpg" alt="" />
+        </a>
+      </div>
+      <div class="middle-header">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-logo-button">
+          <img class="search-logo" src="icons/search-icon.png" alt="" />
+        </button>
+      </div>
+      <div class="right-header">
+        <a href="orders.html" class="orders-link">
+          <span class="return-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+        <a class="cart-link" href="cart.html">
+          <img class="cart-icon" src="icons/cart-icon.png" alt="" />
+          <div class="cart-text">Cart</div>
+        </a>
+        <a href="profile.html">
+          <img class="profile-pic" src="icons/profile-pic.avif" alt="" />
+        </a>
+      </div>
+    </div>
+    <div class="cart-grid">
+      <div class="cart-summary">
+       
+      </div>
+
+      <div class="payment-summary-box">
+        <div class="payment-summary-header">Order Summary</div>
+
+        <div class="payment-row">
+          <div>Items(1):</div>
+          <div>₹399</div>
+        </div>
+        <div class="payment-row">
+          <div>Delivery Charges</div>
+          <div>₹50</div>
+        </div>
+        <div class="payment-row payment-row-last-line">
+          <div>GST and Tax</div>
+          <div>₹20</div>
+        </div>
+        <div class="payment-row">
+          <div class="total-heading">Order total:</div>
+          <div class="total-cost">₹469</div>
+        </div>
+        <a href="payment.html">
+          <button class="order-button">Place Your Order</button>
+        </a>
+      </div>
+    </div>
+    
+    <script src="cart.js"></script>
+    <script src="bookmart.js"></script>
+      
+    
+  </body>
+</html>

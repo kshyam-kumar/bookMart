@@ -1,0 +1,124 @@
+.cart-grid{
+  /* background-color: blueviolet; */
+  /* height:500px;
+  width:500px; */
+  display:grid;
+  grid-template-columns: 1fr 350px;
+  max-width: 1100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap:25px;
+  font-family: Roboto;
+  align-items: start;
+
+}
+.product-cart-box{
+  
+  padding:15px;
+  margin-bottom: 12px;;
+  border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+}
+.delivery-date{
+  color:green;
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;;
+}
+.cart-item-grid{
+  margin-top: 15px;;
+}
+.book-name{
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.book-price{
+  color:red;
+  margin-bottom: 5px;
+}
+.book-quantity span button{
+  color: rgb(38, 120, 235);
+  border:none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.book-quantity span button:hover{
+  background-color:rgb(38, 120, 235); 
+  color:white;
+}
+.cart-item-image{
+  width:100px;
+}
+
+.cart-item-grid{
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  column-gap:25px;
+}
+.delivery-title{
+  font-weight: 700;
+  margin-bottom: 5px;;
+}
+.delivery-option-date{
+  color: green;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.delivery-option{
+  margin-bottom: 5px;
+}
+.delivery-option-price{
+  color:gray
+}
+.payment-summary-box{
+  border: 1px solid black;
+}
+.delivery-option{
+  display: grid;
+  grid-template-columns: 25px 1fr ;
+}
+
+.payment-summary-box{
+
+ border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    padding: 18px;
+
+}
+.payment-row{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  margin-top:10px;
+}
+.payment-summary-header{
+  font-size: 20px;
+  font-weight: 500;
+}
+.payment-row-last-line{
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.total-heading,.total-cost{
+  color:rgb(213, 25, 25);
+  font-size:20px;
+  font-weight: 500;
+}
+.order-button{
+  font-size: 15px ;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    background-color: yellow;
+    border:none;
+    cursor:pointer;
+}
+.order-button:hover{
+  background-color: rgb(252, 216, 20);
+}

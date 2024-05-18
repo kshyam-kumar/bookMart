@@ -1,0 +1,127 @@
+.header{
+  display:flex;
+  height:70px;
+  align-items:center;
+  background-color: rgb(19, 25, 33);
+  justify-content: space-between;
+  /* background-color: orangered; */
+  /* align-items: center; */
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+.left-header{
+  width:150px;
+   /* background-color:aquamarine; */
+   margin-right:40px;
+   margin-left:10px;
+   
+}
+/* ----left header properties----- */
+.book-logo{
+  width:140px;
+ 
+}
+
+  .book-logo-link {
+    display:flex;
+    justify-content: center;
+    padding:3px;
+    /* margin-top: 4px;; */
+  }
+
+.book-logo-link:hover{
+ 
+  border-width: 2px;
+  border-style:solid;
+  border-color:white;
+}
+/* ----left header properties----- */
+/* ----middle header properties----- */
+.middle-header{
+ flex:1;
+ margin-right: 40px;
+ margin-left: 20px;
+ /* background-color: green; */
+ display:flex;
+ align-items:center;
+ justify-content: center;
+ max-width: 850px;
+}
+.search-bar{
+  padding:3px;
+  padding-left: 15px;
+  font-size: 16px;
+  height:38px;
+  flex:1;
+  border:none;
+  border-radius: 2px 0px 0px 2px;
+}
+.search-logo-button{
+  /* width:45px;
+  height:40px; */
+  margin-left:-1px;
+  /* padding-top: 10px; */
+  padding:2px 2px;
+  border:none;
+  background-color: rgb(254, 189, 105);
+  border-radius: 0px 2px 2px 0px;
+}
+.search-logo{
+  height:22px;
+  /* margin-top:5px;
+  margin-bottom:5px;
+  margin-left:5px; */
+  margin:7px;
+}
+
+/* ----middle header properties----- */
+/* ---right header properties----- */
+.right-header{
+  margin-right: 10px;
+  width:300px;
+  color:white;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  /* justify-content: end; */
+  /* background-color:aquamarine; */
+}
+.orders-link{
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+  padding:4px;
+}
+.orders-link:hover,.cart-link:hover,.profile-pic:hover{
+   border: 1px solid white;
+
+}
+.return-text{
+   display:block;
+   font-size: 13px;
+}
+.orders-text{
+  /* display:block; */
+  font-size:15px;
+  font-weight: 700;
+}
+.cart-icon{
+  width:50px;
+}
+.cart-link{
+  display:flex;
+  text-decoration: none;
+  padding:4px;
+}
+.cart-text{
+ 
+  color:white;
+  margin-top: 12px;
+}
+.profile-pic{
+  height:40px;
+  border-radius:20px;
+}
+/* ---right header properties----- */

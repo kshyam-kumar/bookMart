@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Mart</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Playpen+Sans:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="product-grid.css" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="registration.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <a href="homepage.html" class="book-logo-link">
+          <img class="book-logo" src="icons/book-logo.jpg" alt="" />
+        </a>
+      </div>
+      <div class="middle-header">
+        Discover Worlds Within Words: Your Ultimate Destination for Books Galore!
+      </div>
+      <div class="right-header">
+      
+        
+          <a href="login.html" class="login">Login</a>
+          <a href="registration.html" class="register">Register</a>
+        
+        <div>
+          Gmail: kshyam_it211242@mgit.ac.in
+          <br>
+          Phone Number: +91 7207175747
+          <br>
+          Location:Hyderabad
+        </div>
+          
+        
+      </div>
+      
+    </div>
+      
+    </div>
+    
+    <div class="registration-container">
+      <h1>Register for an Account</h1>
+      <form action="registration_process.php" method="post">
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required>
+
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" required>
+ 
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" required>
+
+          <label for="mobile">Mobile Number:</label>
+          <input type="text" name="mobile" id="mobile" required>
+
+          <input type="submit" value="Register">
+      </form>
+
+      <p>Already have an account? <a href="login.html">Login</a></p>
+      <p class="successful-info"></p>
+  </div>
+  <script src="bookmart.js"></script>
+  </body>
+  <script src="registration.js"></script>
+</html>

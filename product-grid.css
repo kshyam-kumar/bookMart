@@ -1,0 +1,98 @@
+.product-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 80px;
+}
+.product-container{
+  margin: 10px;
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  padding:5px;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+/* @media (min-width: 1180px){
+.product-grid{
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+@media (max-width:1155px){
+  .product-grid{
+    
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+@media (max-width:1155px){
+  /* .book-button{
+    font-size: 10px;;
+    padding:2px 2px 2px 2px;
+  } */
+  .product-grid{
+    
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.image-container{
+    height: 250px;
+    display: flex; 
+    justify-content: center; 
+}
+.book-info{
+  display:flex;
+  flex-direction: column;
+}
+.book-title{
+  margin-top:4px;
+  font-size:20px;
+}
+.book-author{
+  margin-top:8px;
+  color:rgb(114, 113, 113);
+}
+.author{
+  color:rgb(22, 122, 237)
+}
+.book-cost{
+  margin-top:8px;
+  color:black;
+  font-size: 30px;
+}
+.book-date{
+  margin-top:10px;
+}
+.book-quantity{
+  margin-top: 20px;
+}
+select{
+    color: rgb(33, 33, 33);
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(213, 217, 217);
+    border-radius: 8px;
+    padding: 3px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.book-delivery-date{
+ 
+  font-weight: 700;
+}
+.book-button-container{
+
+  display: flex;
+  flex-direction: column;
+ 
+ align-items: center;
+}
+.book-button{
+  
+  font-size:16px;
+  background-color: yellow;
+  padding:8px 46px 8px 46px;
+  border:none;
+  border-radius:16px;
+  cursor:pointer;
+}
+.book-button:hover{
+  background-color: rgb(252, 216, 20);
+}

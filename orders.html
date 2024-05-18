@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Mart</title>
+    <!-- css links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Playpen+Sans:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="product-grid.css" />
+    <link rel="stylesheet" href="orders.css">
+    <!-- css links end -->
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <a href="catalog.html" class="book-logo-link">
+          <img class="book-logo" src="icons/book-logo.jpg" alt="" />
+        </a>
+      </div>
+      <div class="middle-header">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-logo-button">
+          <img class="search-logo" src="icons/search-icon.png" alt="" />
+        </button>
+      </div>
+      <div class="right-header">
+        <a href="orders.html" class="orders-link">
+          <span class="return-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+        <a class="cart-link" href="cart.html">
+          <img class="cart-icon" src="icons/cart-icon.png" alt="" />
+          <div class="cart-text">Cart</div>
+        </a>
+        <a href="profile.html">
+        <img class="profile-pic" src="icons/profile-pic.avif" alt="" />
+      </a>
+      </div>
+    </div>
+    
+
+    <div class="main">
+      <div class="page-title">Your Orders</div>
+
+      <div class="orders-grid">
+        <div class="order-container">
+          
+          <div class="order-header">
+            <div class="order-header-left-section">
+              <div class="order-date">
+                <div class="order-header-label">Order Placed:</div>
+                <div>Sunday, 5 November</div>
+              </div>
+              <div class="order-total">
+                <div class="order-header-label">Total:</div>
+                <div>₹469</div>
+              </div>
+            </div>
+
+            <div class="order-header-right-section">
+              <div class="order-header-label">Order ID:</div>
+              <div>21261a1242pppppp</div>
+            </div>
+          </div>
+
+          <div class="order-details-grid">
+            <div class="product-image-container">
+              <img src="icons/books/book-1.webp">
+            </div>
+
+            <div class="product-details">
+              <div class="product-name">
+                  A Nation of Idiots
+              </div>
+              <div class="product-delivery-date">
+                Arriving on: Thursday, 9 November
+              </div>
+              <div class="product-quantity">
+                Quantity: 1
+              </div>
+              <button class="buy-again-button button-primary">
+               
+               Buy it again
+              </button>
+             
+            </div>
+            <div class="track-container">
+            <button class="track-package-button">
+              Track package
+            </button>
+          </div>
+
+          <script src="bookmart.js"></script>
+                
+  </body>
+</html>

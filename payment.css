@@ -1,0 +1,87 @@
+.payment-container{
+  margin:200px auto 200px auto ;
+  background-color: rgb(223, 220, 220);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  padding:10px;
+  width:560px
+}
+
+.make-payment {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-property{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.property-name{
+  font-size: 18px;
+  margin-right: 10px;
+
+}
+.expiry{
+  display:flex;
+}
+.month{
+  margin-right: 15px;;
+}
+.cvv-data-field{
+  font-size:15px;
+  width:10px;
+  height:20px;
+}
+.data-field{
+  padding: 2px;
+    padding-left: 15px;
+    font-size: 16px;
+    height: 38px;
+    width:200px;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+}
+.month-data-field{
+   font-size:15px;
+   width:30px;
+   height:20px;
+   padding: 5px;
+}
+.year-data-field{
+  font-size:15px;
+  width:50px;
+  height:20px;
+}
+
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style the submit button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Apply specific styles to the checkbox label */
+label[for="terms-conditions"] {
+  font-weight: normal;
+}
+.terms{
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed based on your design requirements */
+span{
+  color:red;
+}

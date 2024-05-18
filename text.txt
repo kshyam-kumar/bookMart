@@ -1,0 +1,85 @@
+<!-- <div class="product-cart-box">
+          <div class="delivery-date">Delivery date: Thursday, November 16</div>
+          <div class="cart-item-grid">
+            <img class="cart-item-image" src="icons/books/book-1.webp" />
+            <div class="cart-item-details">
+              <div class="book-name">A Nation of Idiots</div>
+              <div class="book-price">₹399</div>
+              <div class="book-quantity">
+                Quantity: 2 <span>Update Delete</span>
+              </div>
+            </div>
+            <div class="delivery-options">
+              <div class="delivery-title">Choose a delivery option:</div>
+              <div class="delivery-option">
+                <input type="radio" checked name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Tuesday, June 21</div>
+                  <div class="delivery-option-price">FREE Shipping</div>
+                </div>
+              </div>
+
+              <div class="delivery-option">
+                <input type="radio" name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Wednesday, June 15</div>
+                  <div class="delivery-option-price">₹99 - Shipping</div>
+                </div>
+              </div>
+
+              <div class="delivery-option">
+                <input type="radio" name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Monday, June 13</div>
+                  <div class="delivery-option-price">₹50 - Shipping</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-cart-box">
+          <div class="delivery-date">Delivery date: Thursday, November 16</div>
+          <div class="cart-item-grid">
+            <img class="cart-item-image" src="icons/books/book-1.webp" />
+            <div class="cart-item-details">
+              <div class="book-name">A Nation of Idiots</div>
+              <div class="book-price">₹399</div>
+              <div class="book-quantity">
+                Quantity: 2 <span>Update Delete</span>
+              </div>
+            </div>
+            <div class="delivery-options">
+              <div class="delivery-title">Choose a delivery option:</div>
+              <div class="delivery-option">
+                <input type="radio" checked name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Tuesday, June 21</div>
+                  <div class="delivery-option-price">FREE Shipping</div>
+                </div>
+              </div>
+
+              <div class="delivery-option">
+                <input type="radio" name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Wednesday, June 15</div>
+                  <div class="delivery-option-price">₹99 - Shipping</div>
+                </div>
+              </div>
+
+              <div class="delivery-option">
+                <input type="radio" name="option-1" />
+
+                <div>
+                  <div class="delivery-option-date">Monday, June 13</div>
+                  <div class="delivery-option-price">₹50 - Shipping</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
